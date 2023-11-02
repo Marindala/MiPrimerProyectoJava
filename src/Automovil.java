@@ -29,5 +29,28 @@ public class Automovil {
         return "Frenando";
     }
 
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
     //getters y setters
+    public String getMarca(){
+        return this.marca;
+    }
+
+    public int getAnioFabricacion() {
+        return anioFabricacion;
+    }
+
+    public void setAnioFabricacion(int anioFabricacion) {
+        this.anioFabricacion = anioFabricacion;
+    }
+
+    void setMarca(String marca){
+        this.marca = marca;
+    }
 }
