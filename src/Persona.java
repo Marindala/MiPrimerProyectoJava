@@ -15,5 +15,13 @@ public Persona (String nombre, String apellido, int edad){
 
     }
 
+    void caminar(){
+        System.out.println("Caminando");
+    }
+
+    String saltar(){
+        return "Saltando";
+    }
+
 
 }
