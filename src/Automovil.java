@@ -22,10 +22,11 @@ public class Automovil {
 
 
     //metodos //sout imprime en consola
-    void acelerar(){
+    public void acelerar(){
         System.out.println("Acelerando");
     }
-    String frenar(){
+    //public porque quiero que los metodos se utilicen desde otros puntos
+    public String frenar(){
         return "Frenando";
     }
 
