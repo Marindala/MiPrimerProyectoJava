@@ -1,7 +1,8 @@
 public class Automovil {
-    String marca;
-    String modelo;
-    int anioFabricacion;
+    //se rompe con private porque desde main quiero ingresar a estos datos que son privados
+    private String marca;
+    private String modelo;
+    private int anioFabricacion;
 
     //constructor vacio
 
@@ -27,4 +28,6 @@ public class Automovil {
     String frenar(){
         return "Frenando";
     }
+
+    //getters y setters
 }
