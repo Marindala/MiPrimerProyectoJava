@@ -5,6 +5,11 @@ public class Main {
      //lleno //en Java siempre punto y coma
      Automovil auto2 = new Automovil("Renault", "Clio", 2020);
 
+     //clase AutoDeportivo
+
+        AutoDeportivo autoDeportivo1 = new AutoDeportivo();
+        autoDeportivo1.getMarca();
+
      //modifico el auto 2
         auto2.setMarca("Ford");
         auto2.setModelo("Focus");

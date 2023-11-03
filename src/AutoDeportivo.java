@@ -11,7 +11,7 @@ public class AutoDeportivo extends Automovil{
     }
   //generate con todas las propiedades para un constructor completo
     public AutoDeportivo(String marca, String modelo, int anioFabricacion, boolean esConvertible) {
-        //utilizo el super en herencia
+        //utilizo el super en herencia propiedades que vienen de Automovil
         super(marca, modelo, anioFabricacion);
         this.esConvertible = esConvertible;
     }
